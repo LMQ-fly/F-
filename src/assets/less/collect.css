@@ -1,0 +1,61 @@
+.collect {
+  margin-top: 46px;
+}
+.collect /deep/ .van-nav-bar__text {
+  color: #577ded;
+}
+.collect /deep/ .van-nav-bar .van-icon {
+  color: #577ded;
+}
+.collect .like-bg {
+  height: 100px;
+  background-color: #577ded;
+}
+.collect .like-box {
+  margin: -30px 10px 0;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  overflow: hidden;
+  background-color: #fff;
+  padding: 10px;
+}
+.collect .like-box .product-item {
+  width: calc(50% - 25px);
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+.collect .like-box .p-left {
+  margin-right: 5px;
+}
+.collect .like-box .p-right {
+  margin-left: 5px;
+}
+.collect .like-box .p-img {
+  border-radius: 10px;
+  overflow: hidden;
+}
+.collect .like-box .pro-name {
+  font-size: 16px;
+  font-weight: bold;
+  padding: 10px 0;
+  color: #444;
+}
+.collect .like-box .en-pro-name {
+  color: #666;
+  font-size: 14px;
+  width: calc(100% - 50px);
+}
+.collect .like-box .pro-price {
+  font-size: 14px;
+  color: #577ded;
+  font-weight: bold;
+  line-height: 20px;
+}
+.collect .like-box .pro-remove {
+  width: 20px;
+  height: 20px;
+  font-size: 20px;
+  color: #999;
+}

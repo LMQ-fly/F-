@@ -1,0 +1,17 @@
+.center {
+  margin-top: 46px;
+}
+.center /deep/ .van-overlay {
+  background-color: rgba(26, 46, 119, 0.7);
+}
+.center .center-box {
+  text-align: center;
+  padding-bottom: 10px;
+}
+.center .popup-item {
+  margin-top: 40px;
+}
+.center /deep/ .van-button--round {
+  background-color: #4a6fe7;
+  border-color: #4a6fe7;
+}

@@ -1,0 +1,76 @@
+.detail {
+  padding-top: 46px;
+  padding-bottom: 20px;
+  background-color: #fff;
+}
+.detail .detail-info {
+  padding: 20px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  background-color: #fff;
+  position: relative;
+  top: -30px;
+}
+.detail .detail-info .rule-box {
+  border-bottom: 1px solid #cccccc;
+}
+.detail .detail-info .rule-box .rule-item {
+  margin-bottom: 10px;
+}
+.detail .detail-info .rule-box .rule-item .rule-item-title,
+.detail .detail-info .rule-box .rule-item .rule-item-tag {
+  height: 26px;
+  width: 60px;
+  font-size: 14px;
+  line-height: 26px;
+  color: #444;
+}
+.detail .detail-info .rule-box .rule-item .rule-item-tag {
+  width: 70px;
+  border-radius: 30px;
+  border: 1px solid #5a7eeb;
+  background-color: #fff;
+  text-align: center;
+  margin-right: 20px;
+  font-size: 12px;
+}
+.detail .detail-info .rule-box .rule-item .rule-item-tag:last-child {
+  margin-right: 0;
+}
+.detail .detail-info .rule-box .rule-item .rule-item-tag.active {
+  background-color: #6A91EC;
+  color: #fff;
+}
+.detail .detail-info .desc-box {
+  margin-top: 10px;
+  border-bottom: 1px solid #cccccc;
+}
+.detail .detail-info .desc-box .desc-title {
+  margin-bottom: 10px;
+}
+.detail .detail-info .desc-box .desc-text {
+  font-size: 12px;
+  color: #d4d5d8;
+  margin-bottom: 5px;
+}
+.detail .detail-info .desc-price-count {
+  margin-top: 20px;
+}
+.detail .detail-info .desc-price-count .price {
+  color: #4b71e8;
+  font-size: 20px;
+}
+.detail .detail-info .desc-price-count .count /deep/ .van-stepper--round .van-stepper__plus {
+  background-color: #5a7eeb;
+}
+.detail .detail-info .desc-price-count .count /deep/ .van-stepper--round .van-stepper__minus {
+  color: #5a7eeb;
+  background-color: #fff;
+  border: 0.02667rem solid #5a7eeb;
+}
+.detail .detail-info .desc-price-count .count /deep/ .van-stepper__input {
+  font-weight: bold;
+}
+.detail .van-info {
+  background-color: #5a7eeb;
+}

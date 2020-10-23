@@ -1,0 +1,208 @@
+.pay {
+  margin-top: 46px;
+}
+.pay /deep/ .van-button--danger {
+  color: #fff;
+  background-color: #4b70e7;
+  border: 0.02667rem solid #4b70e7;
+}
+.pay .address-bg {
+  height: 150px;
+  background-color: #4b70e7;
+  color: white;
+}
+.pay .address-title {
+  height: 32px;
+  font-size: 16px;
+  line-height: 32px;
+  color: #d9e1fb;
+}
+.pay .arrow-box {
+  width: 16px;
+  height: 16px;
+  margin-top: 8px;
+  margin-left: 5px;
+}
+.pay .arrow-box /deep/ .van-icon {
+  line-height: 16px;
+  font-size: 16px;
+}
+.pay .open {
+  padding: 20px;
+}
+.pay .address-content {
+  min-height: 59px;
+  margin-top: -35px;
+  padding: 20px;
+}
+.pay .address-content .name {
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 30px;
+  color: #ffffff;
+}
+.pay .address-content .phone {
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 30px;
+  margin-left: 20px;
+}
+.pay .address-content .address-info {
+  font-size: 14px;
+  margin-top: 10px;
+}
+.pay .address-box {
+  background-color: #ffffff;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  padding: 10px;
+  margin: -30px 10px 0;
+  position: relative;
+}
+.pay .address-box .order-title {
+  font-size: 16px;
+  font-weight: bold;
+  border-bottom: 1px dashed #e4e4e4;
+}
+.pay .address-box .left-box {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  top: 30px;
+  background-color: #f5f5f5;
+  border-radius: 50%;
+}
+.pay .address-box .left {
+  left: -10px;
+}
+.pay .address-box .right-box {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  top: 30px;
+  background-color: #f5f5f5;
+  border-radius: 50%;
+}
+.pay .address-box .right {
+  right: -10px;
+}
+.pay .address-box .cell-box {
+  margin-top: 30px;
+}
+.pay .address-box .cell-box:last-child {
+  margin-bottom: 0;
+}
+.pay .address-box .cell-box .pro-img {
+  width: 70px;
+  height: 70px;
+  margin: 0 10px;
+}
+.pay .address-box .cell-box .pro-info {
+  width: calc(100% - 114px);
+  height: 70px;
+}
+.pay .address-box .cell-box .text-box {
+  height: 46px;
+}
+.pay .address-box .cell-box .price-box {
+  height: 24px;
+}
+.pay .address-box .cell-box .text-name,
+.pay .address-box .cell-box .text-rule {
+  height: 22px;
+  line-height: 22px;
+}
+.pay .address-box .cell-box .text-name {
+  font-size: 16px;
+  color: #444;
+}
+.pay .address-box .cell-box .text-rule {
+  font-size: 14px;
+  margin-left: 10px;
+  color: #999;
+}
+.pay .address-box .cell-box .text-enname {
+  height: 24px;
+  font-size: 12px;
+  color: #999;
+}
+.pay .address-box .cell-box .price {
+  color: #4b70e9;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 24px;
+}
+.pay .address-box .cell-box .count {
+  line-height: 24px;
+  font-size: 14px;
+  color: #999;
+}
+.pay .pro-box {
+  position: relative;
+  margin-top: 20px;
+}
+.pay .pro-box .pro-boxing {
+  border-top: 1px dashed #e4e4e4;
+  padding-top: 20px;
+}
+.pay .pro-box .pro-boxing .pro-count {
+  font-size: 14px;
+  line-height: 14px;
+}
+.pay .pro-box .pro-boxing .pro-total {
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: bold;
+  color: #272c36;
+}
+.pay .pro-box .lefts-box {
+  position: absolute;
+  top: -0.26667rem;
+  width: 0.53333rem;
+  height: 0.53333rem;
+  background-color: #f5f5f5;
+  border-radius: 50%;
+}
+.pay .pro-box .lefts {
+  left: -20px;
+}
+.pay .pro-box .rights {
+  right: -20px;
+}
+.pay .bottom {
+  height: 100px;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  background-color: #587eed;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.pay .bottom .pay-boxing {
+  padding: 20px;
+}
+.pay .bottom .pay-boxing .pay-price {
+  font-size: 16px;
+  line-height: 42px;
+  font-weight: bold;
+  color: white;
+}
+.pay .bottom .pay-boxing /deep/ .van-button__text {
+  font-weight: bold;
+}
+.pay .address-title-box {
+  height: 1.06667rem;
+  font-size: 0.42667rem;
+  font-weight: bold;
+  text-align: center;
+  line-height: 1.06667rem;
+  padding-top: 0.26667rem;
+}
+.pay /deep/ .van-tag--danger {
+  background-color: #4b70e7;
+}
+.pay /deep/ .van-address-item .van-radio__icon--checked .van-icon {
+  background-color: #4b70e7;
+  border-color: #4b70e7;
+}

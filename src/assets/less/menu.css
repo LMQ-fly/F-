@@ -1,0 +1,79 @@
+.menu /deep/ .van-search {
+  padding: 0;
+}
+.menu .menu-box {
+  margin-top: 46px;
+}
+.menu .menu-box .left-product {
+  display: flex;
+}
+.menu .menu-box .left-product .menu-list {
+  width: 100px;
+  height: 100%;
+  background-color: #f5f6f9;
+}
+.menu .menu-box .left-product .menu-list .text {
+  font-size: 12px;
+  color: #d6d8db;
+  padding: 16px;
+  text-align: center;
+  white-space: nowrap;
+}
+.menu .menu-box .left-product .menu-list .text.active {
+  color: white;
+  background-color: #4f74e9;
+}
+.menu .menu-box .right-product {
+  width: calc(100% - 100px);
+  background-color: #fefefe;
+}
+.menu .menu-box .right-product .product-list {
+  background-color: #f5f5f5;
+  padding: 5px;
+}
+.menu .menu-box .right-product .product-list.not-first {
+  padding-top: 0;
+}
+.menu .menu-box .right-product .pro-box {
+  display: flex;
+  padding: 6px;
+  background-color: #fff;
+  border-radius: 10px;
+}
+.menu .menu-box .right-product .pro-img {
+  width: 70px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.menu .menu-box .right-product .pro-info {
+  margin-left: 20px;
+  width: calc(100% - 60px);
+}
+.menu .menu-box .right-product .pro-text {
+  height: 50px;
+  margin-top: 10px;
+}
+.menu .menu-box .right-product .ch-name {
+  height: 30px;
+  font-size: 16px;
+  line-height: 30px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.menu .menu-box .right-product .en-name {
+  height: 20px;
+  width: 90px;
+  font-size: 12px;
+  color: #999;
+  line-height: 20px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.menu .menu-box .right-product .pro-price {
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 70px;
+  color: #4b70e7;
+}

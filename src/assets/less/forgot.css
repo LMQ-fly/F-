@@ -1,0 +1,58 @@
+.forgot-box {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #fff;
+}
+.forgot-box .login-box {
+  padding: 10px;
+}
+.forgot-box .left-text {
+  display: flex;
+}
+.forgot-box .logo {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  margin-top: 5px;
+}
+.forgot-box .logo-title {
+  font-weight: bold;
+  font-size: 16px;
+  margin-left: 10px;
+  line-height: 46px;
+}
+.forgot-box .login-form {
+  margin-top: 80px;
+  padding: 0 10px;
+}
+.forgot-box .title {
+  font-size: 32px;
+  font-weight: bold;
+  color: #444;
+}
+.forgot-box .en-title {
+  color: #838383;
+  margin-top: 20px;
+  font-size: 18px;
+}
+.forgot-box .login-form-box {
+  margin-top: 50px;
+}
+.forgot-box /deep/ .login-form-box .van-cell {
+  padding-left: 0;
+  padding-right: 0;
+}
+.forgot-box .login-btn {
+  margin-top: 40px;
+}
+.forgot-box .forgot {
+  margin-top: 20px;
+  color: #666;
+}
+.forgot-box .close-box {
+  color: #4f74e9;
+  font-weight: bold;
+}

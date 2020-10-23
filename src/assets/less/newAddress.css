@@ -1,0 +1,8 @@
+.new-address {
+  margin-top: 46px;
+}
+.new-address /deep/ .van-button--danger {
+  color: #fff;
+  background-color: #4a6fe7;
+  border: 0.02667rem solid #4a6fe7;
+}

@@ -1,0 +1,72 @@
+.login {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #fff;
+}
+.login .login-box {
+  padding: 10px;
+}
+.login .left-text {
+  display: flex;
+}
+.login .logo {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  margin-top: 5px;
+}
+.login .logo-title {
+  font-weight: bold;
+  font-size: 16px;
+  margin-left: 10px;
+  line-height: 46px;
+}
+.login .login-form {
+  padding: 0 10px;
+}
+.login .title {
+  font-size: 32px;
+  font-weight: bold;
+  color: #444;
+}
+.login .en-title {
+  color: #838383;
+  margin-top: 20px;
+  font-size: 18px;
+}
+.login .login-form-box {
+  margin-top: 50px;
+}
+.login /deep/ .login-form-box .van-cell {
+  padding-left: 0;
+  padding-right: 0;
+}
+.login .login-btn {
+  margin-top: 40px;
+}
+.login .forgot {
+  margin-top: 20px;
+  color: #666;
+}
+.login .close-box {
+  color: #5076ea;
+  font-weight: bold;
+}
+.login .popup-box {
+  min-height: 300px;
+}
+.login .popup-item {
+  padding: 20px;
+}
+.login /deep/ .popup-item .van-cell {
+  padding-left: 0;
+  padding-right: 0;
+}
+.login .register-text {
+  font-weight: bold;
+  font-size: 24px;
+  margin-bottom: 30px;
+}

@@ -1,7 +1,9 @@
-# work
 
-## Project setup
+
+## 简介
 ```
+这是一个用vue写购买咖啡APP，支持搜索商品,收藏,下单,登陆注册。
+
 npm install
 ```
 
